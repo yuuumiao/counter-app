@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import "./Counter.css";
 
 class Counter extends Component {
   state = {
@@ -19,17 +20,19 @@ class Counter extends Component {
   };
 
   render() {
-    let colorChoice =
-      this.state.counterValue >= 100
-        ? "green"
-        : this.state.counterValue <= -100
-        ? "red"
-        : "";
-
     return (
       <div>
         <h1 data-testid="header">My Counter</h1>
-        <h3 data-testid="counter" className={colorChoice}>
+        <h3
+          data-testid="counter"
+          className={
+            this.state.counterValue >= 100
+              ? "green"
+              : this.state.counterValue <= -100
+              ? "red"
+              : ""
+          }
+        >
           {this.state.counterValue}
         </h3>
         <button data-testid="subtract-btn" onClick={this.substractToCounter}>
