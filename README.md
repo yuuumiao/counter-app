@@ -1,7 +1,14 @@
-[![Contributors][contributors-shield]][https://github.com/yuuumiao/counter-app/graphs/contributors]
+<!-- [![Contributors][contributors-shield]][https://github.com/yuuumiao/counter-app/graphs/contributors]
 [![Forks][forks-shield]][https://github.com/yuuumiao/counter-app/network/members]
 [![Issues][issues-shield]][https://github.com/yuuumiao/counter-app/issues]
-[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/yuuumiao/]
+[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/yuuumiao/] -->
+
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
 <!-- PROJECT LOGO -->
 <br />
